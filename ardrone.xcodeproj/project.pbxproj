@@ -10,10 +10,12 @@
 		2C32E03F1B0F1250006A28B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C32E03E1B0F1250006A28B1 /* main.m */; };
 		2C32E0421B0F1250006A28B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C32E0411B0F1250006A28B1 /* AppDelegate.m */; };
 		2C32E0451B0F1250006A28B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C32E0441B0F1250006A28B1 /* ViewController.m */; };
-		2C32E0481B0F1250006A28B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C32E0461B0F1250006A28B1 /* Main.storyboard */; };
 		2C32E04A1B0F1250006A28B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C32E0491B0F1250006A28B1 /* Images.xcassets */; };
 		2C32E04D1B0F1250006A28B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32E04B1B0F1250006A28B1 /* LaunchScreen.xib */; };
 		2C32E0591B0F1251006A28B1 /* ardroneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C32E0581B0F1251006A28B1 /* ardroneTests.m */; };
+		2C32E0641B0F29C0006A28B1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C32E0631B0F29C0006A28B1 /* ViewController2.m */; };
+		2C32E0661B12F81C006A28B1 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C32E0651B12F81C006A28B1 /* ViewController2.xib */; };
+		2C32E0691B130630006A28B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C32E0671B130630006A28B1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,15 @@
 		2C32E0411B0F1250006A28B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C32E0431B0F1250006A28B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2C32E0441B0F1250006A28B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2C32E0471B0F1250006A28B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C32E0491B0F1250006A28B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C32E04C1B0F1250006A28B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2C32E0521B0F1251006A28B1 /* ardroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ardroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C32E0571B0F1251006A28B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C32E0581B0F1251006A28B1 /* ardroneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ardroneTests.m; sourceTree = "<group>"; };
+		2C32E0621B0F29C0006A28B1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		2C32E0631B0F29C0006A28B1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		2C32E0651B12F81C006A28B1 /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		2C32E0681B130630006A28B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +90,10 @@
 				2C32E0411B0F1250006A28B1 /* AppDelegate.m */,
 				2C32E0431B0F1250006A28B1 /* ViewController.h */,
 				2C32E0441B0F1250006A28B1 /* ViewController.m */,
-				2C32E0461B0F1250006A28B1 /* Main.storyboard */,
+				2C32E0621B0F29C0006A28B1 /* ViewController2.h */,
+				2C32E0671B130630006A28B1 /* Main.storyboard */,
+				2C32E0631B0F29C0006A28B1 /* ViewController2.m */,
+				2C32E0651B12F81C006A28B1 /* ViewController2.xib */,
 				2C32E0491B0F1250006A28B1 /* Images.xcassets */,
 				2C32E04B1B0F1250006A28B1 /* LaunchScreen.xib */,
 				2C32E03C1B0F1250006A28B1 /* Supporting Files */,
@@ -199,9 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C32E0481B0F1250006A28B1 /* Main.storyboard in Resources */,
+				2C32E0661B12F81C006A28B1 /* ViewController2.xib in Resources */,
 				2C32E04D1B0F1250006A28B1 /* LaunchScreen.xib in Resources */,
 				2C32E04A1B0F1250006A28B1 /* Images.xcassets in Resources */,
+				2C32E0691B130630006A28B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C32E0451B0F1250006A28B1 /* ViewController.m in Sources */,
+				2C32E0641B0F29C0006A28B1 /* ViewController2.m in Sources */,
 				2C32E0421B0F1250006A28B1 /* AppDelegate.m in Sources */,
 				2C32E03F1B0F1250006A28B1 /* main.m in Sources */,
 			);
@@ -244,20 +254,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C32E0461B0F1250006A28B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C32E0471B0F1250006A28B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C32E04B1B0F1250006A28B1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2C32E04C1B0F1250006A28B1 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		2C32E0671B130630006A28B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C32E0681B130630006A28B1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -348,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ardrone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ardrone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +428,7 @@
 				2C32E05E1B0F1251006A28B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C32E05F1B0F1251006A28B1 /* Build configuration list for PBXNativeTarget "ardroneTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				2C32E0611B0F1251006A28B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

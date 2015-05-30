@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController2">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="64S-e7-Zm4"/>
+                <outlet property="webView2" destination="QPI-hC-LQT" id="TIE-zR-OTU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlV-Gu-rsE">
+                    <rect key="frame" x="180" y="694" width="55" height="30"/>
+                    <state key="normal" title="Capture">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="capture:" destination="-1" eventType="touchUpInside" id="Hf0-ZD-sQw"/>
+                    </connections>
+                </button>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPI-hC-LQT">
+                    <rect key="frame" x="0.0" y="-57" width="414" height="743"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BlV-Gu-rsE" secondAttribute="bottom" constant="14" id="0s5-7w-hmQ"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-57" id="3J3-lS-AgK"/>
+                <constraint firstAttribute="trailing" secondItem="BlV-Gu-rsE" secondAttribute="trailing" constant="179" id="3yZ-bZ-xaW"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="top" secondItem="QPI-hC-LQT" secondAttribute="bottom" constant="8" id="56i-37-mQn"/>
+                <constraint firstAttribute="bottom" secondItem="QPI-hC-LQT" secondAttribute="bottom" id="6Rj-de-DZq"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="leading" secondItem="QPI-hC-LQT" secondAttribute="trailing" constant="8" id="7mu-v3-6RV"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7vB-HR-CfV"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="leading" secondItem="QPI-hC-LQT" secondAttribute="trailing" constant="8" id="8xb-pn-mcj"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9Us-eh-tQp"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="353" id="Beb-X0-5Id"/>
+                <constraint firstAttribute="bottom" secondItem="QPI-hC-LQT" secondAttribute="bottom" id="BhM-1k-I88"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="top" secondItem="QPI-hC-LQT" secondAttribute="bottom" constant="8" id="Br3-Hh-l0W"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Bww-QN-hF3"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-57" id="CN4-It-UcF"/>
+                <constraint firstAttribute="trailing" secondItem="QPI-hC-LQT" secondAttribute="trailing" id="Dkw-EV-vVJ"/>
+                <constraint firstAttribute="bottom" secondItem="QPI-hC-LQT" secondAttribute="bottom" id="G47-fs-VRm"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="180" id="JXC-tW-lhI"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NdB-xC-MTg"/>
+                <constraint firstAttribute="trailing" secondItem="BlV-Gu-rsE" secondAttribute="trailing" constant="179" id="QfR-dl-9aK"/>
+                <constraint firstAttribute="bottom" secondItem="BlV-Gu-rsE" secondAttribute="bottom" constant="12" id="ZL4-rB-WOT"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-57" id="Zpz-cM-Lrt"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ewe-k7-ycR"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="leading" secondItem="QPI-hC-LQT" secondAttribute="trailing" constant="3" id="hZA-pp-2xA"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-57" id="kNq-HS-vD7"/>
+                <constraint firstAttribute="trailing" secondItem="QPI-hC-LQT" secondAttribute="trailing" id="lUK-b5-7Kl"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lYv-2I-WNL"/>
+                <constraint firstAttribute="bottom" secondItem="QPI-hC-LQT" secondAttribute="bottom" id="pdB-kR-T26"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pgK-Mk-v13"/>
+                <constraint firstItem="BlV-Gu-rsE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="180" id="qC8-uz-N9R"/>
+                <constraint firstAttribute="trailing" secondItem="QPI-hC-LQT" secondAttribute="trailing" id="r9O-0F-gLm"/>
+                <constraint firstAttribute="bottom" secondItem="BlV-Gu-rsE" secondAttribute="bottom" constant="353" id="w8C-7g-Pbs"/>
+                <constraint firstItem="QPI-hC-LQT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zs5-tp-dqv"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="3J3-lS-AgK"/>
+                    <exclude reference="6Rj-de-DZq"/>
+                    <exclude reference="7vB-HR-CfV"/>
+                    <exclude reference="9Us-eh-tQp"/>
+                    <exclude reference="BhM-1k-I88"/>
+                    <exclude reference="Bww-QN-hF3"/>
+                    <exclude reference="CN4-It-UcF"/>
+                    <exclude reference="Dkw-EV-vVJ"/>
+                    <exclude reference="G47-fs-VRm"/>
+                    <exclude reference="NdB-xC-MTg"/>
+                    <exclude reference="Zpz-cM-Lrt"/>
+                    <exclude reference="ewe-k7-ycR"/>
+                    <exclude reference="pdB-kR-T26"/>
+                    <exclude reference="pgK-Mk-v13"/>
+                    <exclude reference="r9O-0F-gLm"/>
+                    <exclude reference="zs5-tp-dqv"/>
+                    <exclude reference="0s5-7w-hmQ"/>
+                    <exclude reference="56i-37-mQn"/>
+                    <exclude reference="7mu-v3-6RV"/>
+                    <exclude reference="8xb-pn-mcj"/>
+                    <exclude reference="Beb-X0-5Id"/>
+                    <exclude reference="QfR-dl-9aK"/>
+                    <exclude reference="hZA-pp-2xA"/>
+                    <exclude reference="qC8-uz-N9R"/>
+                    <exclude reference="w8C-7g-Pbs"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>
